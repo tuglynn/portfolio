@@ -113,7 +113,7 @@ p {
 }
 
 #about,
-#service,
+#projects,
 #experience,
 #education,
 #contact {
@@ -123,7 +123,7 @@ p {
 #home .container,
 #about .container, 
 #experience .container,
-#service .container,
+#projects .container,
 #education .container,
 #contact .container {
   width: 100%;
@@ -136,7 +136,7 @@ p {
   padding: 22px 42px 42px 42px;
 }
 
-#service,
+#projects,
 #quotes,
 footer {
   text-align: center;
@@ -413,23 +413,23 @@ a:hover, a:active, a:focus {
 
 
 /*---------------------------------------
-    Service section              
+    Projects section              
 -----------------------------------------*/
 
-#service {
+#projects {
   background: #E9724C;
 }
 
-#service p {
+#projects p {
   font-size: 18px;
   line-height: 30px;
 }
 
-#service .service-thumb {
+#projects .service-thumb {
   padding: 52px 22px 52px 22px;
 }
 
-#service .service-thumb .fa {
+#projects .service-thumb .fa {
   font-size: 42px;
   padding-bottom: 22px;
 }
@@ -674,7 +674,7 @@ footer {
   #home .container,
   #about .container, 
   #experience .container,
-  #service .container,
+  #projects .container,
   #education .container,
   #contact .container {
     padding-right: 15px;
