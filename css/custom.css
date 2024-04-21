@@ -36,6 +36,7 @@
     right: 5%;
 }
 
+
 @media screen and (max-width: 936px) {
     .spacer {
         height: 30%;
@@ -45,8 +46,11 @@
         top: 20%;
     }
 }
-div label {
-    display: none;
+
+@media screen and (max-width: 828px) {
+    #experience .experience-img {
+        width: 100vw;
+    }
 }
 
 
