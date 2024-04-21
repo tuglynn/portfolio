@@ -11,6 +11,8 @@
     text-align: center;
 }
 
+
+
 @keyframes dancing-husk {
     0% {
         transform: rotate(0deg);
@@ -34,23 +36,6 @@
 }
 .husk.head--right {
     right: 5%;
-}
-
-
-@media screen and (max-width: 936px) {
-    .spacer {
-        height: 30%;
-    }
-    .husk {
-        width: 90px;
-        top: 20%;
-    }
-}
-
-@media screen and (max-width: 828px) {
-    #experience .experience-img {
-        width: 100vw;
-    }
 }
 
 
@@ -132,4 +117,40 @@
 
 .is-hidden {
     display: none;
+}
+
+
+/* Single page styles */
+
+.single-page {
+    width: 100vw;
+    height: 8svh;
+    /* background-color: green; */
+}
+
+.weather-thought-pic {
+    background: url('../images/weather-thought.png') no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100%;
+    height: 100svh;
+}
+
+/* Media Queries */
+
+
+@media screen and (max-width: 936px) {
+    .spacer {
+        height: 30%;
+    }
+    .husk {
+        width: 90px;
+        top: 20%;
+    }
+}
+
+@media screen and (max-width: 828px) {
+    #experience .experience-img {
+        width: 100vw;
+    }
 }
