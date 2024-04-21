@@ -1,3 +1,9 @@
+/* added the color scheme as variables for easy customization */
+:root {
+  --yellow: #E3AE57;
+  --white: #ffffff;
+}
+
 /*
 
 Stimulus Template
@@ -7,7 +13,7 @@ http://www.templatemo.com/tm-498-stimulus
 */
 
 body {
-	background: #ffffff;
+	background: var(--white);
     font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
 	font-weight: 300;
@@ -92,9 +98,9 @@ p {
 }
 
 .section-btn:hover {
-  background: #E3AE57;
+  background: var(--yellow);
   border-color: transparent;
-  color: #ffffff;
+  color: var(--white);
 }
 
 .btn-success:focus {
@@ -161,19 +167,19 @@ footer {
 }
 
 .color-white {
-  color: #ffffff;
+  color: var(--white);
 }
 
 .color-yellow {
-  color: #E3AE57;
+  color: var(--yellow);
 }
 
 .bg-yellow {
-  background: #E3AE57;
+  background: var(--yellow);
 }
 
 .bg-white {
-  background: #ffffff;
+  background: var(--white);
 }
 
 .bg-dark {
@@ -191,14 +197,14 @@ html{
 }
 
 a {
-  color: #E3AE57;
+  color: var(--yellow);
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
   text-decoration: none !important;
 }
 a:hover, a:active, a:focus {
-  color: #E3AE57;
+  color: var(--yellow);
   outline: none;
 }
 
@@ -232,7 +238,7 @@ a:hover, a:active, a:focus {
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
-  background: none repeat scroll 0 0 #ffffff;
+  background: none repeat scroll 0 0 var(--white);
 }
 
 .spinner {
@@ -252,7 +258,7 @@ a:hover, a:active, a:focus {
   margin-top: -10px;
   margin-left: -10px;
   border-radius: 50%;
-  border: 2px solid #E3AE57;
+  border: 2px solid var(--yellow);
   border-top-color: #f9f9f9;
   animation: spinner .6s linear infinite;
 }
@@ -273,7 +279,7 @@ a:hover, a:active, a:focus {
 
 .custom-navbar {
     margin-bottom: 0;
-    background-color: #ffffff;
+    background-color: var(--white);
 }
 
 .custom-navbar .navbar-brand {
@@ -297,7 +303,7 @@ a:hover, a:active, a:focus {
 
 .custom-navbar .nav li a:hover {
     background: transparent;
-    color: #E3AE57;
+    color: var(--yellow);
 }
 
 .custom-navbar .navbar-nav > li > a:hover,
@@ -307,7 +313,7 @@ a:hover, a:active, a:focus {
 
 .custom-navbar .nav li.active > a {
     background-color: transparent;
-    color: #E3AE57;
+    color: var(--yellow);
 }
 
 .custom-navbar .navbar-toggle {
@@ -320,7 +326,7 @@ a:hover, a:active, a:focus {
 }
 
 .custom-navbar .navbar-toggle .icon-bar {
-    background: #E3AE57;
+    background: var(--yellow);
     border-color: transparent;
 }
 
@@ -331,7 +337,7 @@ a:hover, a:active, a:focus {
         background: 0 0; 
     }
     .custom-navbar.top-nav-collapse {
-        background: #ffffff;
+        background: var(--white);
         box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
         padding: 0;
     }
@@ -393,7 +399,7 @@ a:hover, a:active, a:focus {
 }
 
 #about .progress {
-  background: #ffffff;
+  background: var(--white);
   border-radius: 0px;
   box-shadow: none;
   height: 2px;
@@ -463,7 +469,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #education {
-  background: #E3AE57;
+  background: var(--yellow);
 }
 
 #education .education-img {
@@ -494,7 +500,7 @@ a:hover, a:active, a:focus {
     background: url('../images/quotes-bg.jpg') 50% 0 repeat-y fixed;
     background-size: cover;
     background-position: center center;
-    color: #ffffff;
+    color: var(--white);
     position: relative;
     padding: 100px 0px;
 }
@@ -543,17 +549,17 @@ a:hover, a:active, a:focus {
   padding-bottom: 6px;
 }
 
-#contact .form-control::-moz-placeholder{color:#ffffff;opacity:1}
-#contact .form-control:-ms-input-placeholder{color:#ffffff}
-#contact .form-control::-webkit-input-placeholder{color:#ffffff}
+#contact .form-control::-moz-placeholder{color:var(--white);opacity:1}
+#contact .form-control:-ms-input-placeholder{color:var(--white)}
+#contact .form-control::-webkit-input-placeholder{color:var(--white)}
 
 #contact .form-control {
   background: transparent;
   border: none;
-  border-bottom: 1px solid #E3AE57;
+  border-bottom: 1px solid var(--yellow);
   border-radius: 0px;
   box-shadow: none;
-  color: #ffffff;
+  color: var(--white);
   font-size: 18px;
   margin-top: 10px;
   margin-bottom: 25px;
@@ -561,7 +567,7 @@ a:hover, a:active, a:focus {
 }
 
 #contact .form-control:focus {
-  border-bottom-color: #ffffff;
+  border-bottom-color: var(--white);
 }
 
 #contact input {
@@ -569,7 +575,7 @@ a:hover, a:active, a:focus {
 }
 
 #contact input[type="submit"] {
-  background: #ffffff;
+  background: var(--white);
   border: 2px solid transparent;
   border-radius: 40px;
   color: #161616;
@@ -578,8 +584,8 @@ a:hover, a:active, a:focus {
 
 #contact input[type="submit"]:hover {
   background: transparent;
-  border-color: #ffffff;
-  color: #ffffff;
+  border-color: var(--white);
+  color: var(--white);
 }
 
 #contact .fa {
@@ -632,9 +638,9 @@ footer {
 }
 
 .social-icon li a:hover {
-    background: #E3AE57;
-    border-color: #ffffff;
-    color: #ffffff;
+    background: var(--yellow);
+    border-color: var(--white);
+    color: var(--white);
     transform: scale(1.1);
 }
 
