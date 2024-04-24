@@ -154,8 +154,18 @@
 
 .weather-thought-pic {
     background: url('../images/weather-thought.png') no-repeat;
-    background-size: cover;
-    background-position: 50%;
+    width: 100%;
+    height: 30svh;
+}
+.piano-quiz-pic {
+    background: url('../images/piano-quiz.png') no-repeat;
+    top: -20px;
+    width: 100%;
+    height: 30svh;
+}
+.javascript-todo-pic {
+    background: url('../images/javascript-todo.png') no-repeat;
+    top: -20px;
     width: 100%;
     height: 30svh;
 }
