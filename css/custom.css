@@ -1,3 +1,13 @@
+/* General and Misc */
+
+.dark-link {
+    color: #000;
+}
+
+.dark-link:hover {
+    color:#58457F;
+}
+
 .color-black {
     color: black;
 }
@@ -10,6 +20,20 @@
 .error-message {
     text-align: center;
 }
+.hero {
+    width: 100vw;
+    height: 30svh;
+    background-color: #E9724C;
+}
+
+.sr-only {
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+    }
 
 
 
@@ -131,9 +155,9 @@
 .weather-thought-pic {
     background: url('../images/weather-thought.png') no-repeat;
     background-size: cover;
-    background-position: 50% 50%;
+    background-position: 50%;
     width: 100%;
-    height: 100svh;
+    height: 30svh;
 }
 
 /* Media Queries */
